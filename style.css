@@ -27,6 +27,15 @@ html, body{
     width: 100%;
 }
 
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    color: chocolate;
+}
+
 .navbar .logo{
     font-size: 30px;
     font-weight: bold;
@@ -44,4 +53,26 @@ html, body{
     display: flex;
     align-items: center;
     gap: 25px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 15px;
+}
+
+button:hover{
+    background-color: rgb(33, 32, 32);
+    cursor: pointer;
+}
+
+.fa-instagram{
+    font-size: 25px;
+}
+
+.fa-instagram:hover{
+    color: chocolate;
+    cursor: pointer;
 }
