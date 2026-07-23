@@ -28,7 +28,7 @@ Main Container Navbar and CTA Section
     height: 80px;
     display: flex;
     padding: 0 50px;
-    background-color: yellow;
+    background-color: white;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -133,4 +133,68 @@ Hero Section
 .text-section p {
     font-size: 18px;
     margin-bottom: 30px;
+}
+
+/* About Section */
+
+.about-section{
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-color: #6b2f2f;
+    color: white;
+}
+
+.about-me-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    text-align: justify;
+}
+
+.about-me-section h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.about-me-section p {
+    font-size: 18px;
+    overflow: hidden;
+    line-height: 1.8;
+}
+
+.skills-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.skills-section h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.my-skills{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 100%;
+    list-style: none;
+}
+
+.my-skills li{
+    background-color: brown;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my-skills li:hover{
+    background-color: #8b3f3f;
+    transform: translate(-5px);
 }
