@@ -198,3 +198,105 @@ Hero Section
     background-color: #8b3f3f;
     transform: translate(-5px);
 }
+
+/* portfolio section */
+
+.portfolio-section {
+    height: 100vh;
+    background: #953333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.portfolio-header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.portfolio-header p {
+    font-size: 18px;
+    color: #666;
+    color: white;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.portfolio-card {
+    display: flex;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-8px);
+}
+
+.portfolio-image {
+    flex: 1;
+}
+
+.portfolio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio-details {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio-details h2 {
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tech-stack span {
+    background: brown;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.portfolio-details p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.project-btn {
+    background: brown;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s;
+}
